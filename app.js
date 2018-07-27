@@ -4,6 +4,7 @@ var express = require('express'),
     mongoose    = require("mongoose"),
     bodyParser  =require("body-parser"),
     app = express();
+    const PORT = process.env.PORT;
 
     mongoose.connect("mongodb://localhost/rest_blog");
     app.set('view engine', 'ejs');
@@ -109,6 +110,6 @@ app.delete("/blogs/:id", function(req, res){
 
 
 
-  app.listen(3002, function () {
+  app.listen(PORT, function () {
     console.log("server listening on port 3002");
   })

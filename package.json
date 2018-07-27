@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+"start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+"node":"^10.7.0",
+    "npm":"^6.1.0",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
