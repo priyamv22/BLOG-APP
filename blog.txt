@@ -1,0 +1,38 @@
+EDIT AND UPDATE
+---------------
+
+RESTFUL ROUTING(ARCHI
+---------------
+ 
+   7 RESTFUL ROUTES
+
+    NAME          PATH                  HTTP VERB                     PURPOSE
+--------------------------------------------------------------------------------
+1.Index           /blogs                 GET                         list all blogs
+
+2.New             /blogs/new             GET                         show new page
+
+3.Create          /blogs                 POST                        create new blog
+
+4.Show            /blogs/:id             GET                         show info
+
+5.Edit            /blogs/:id/edit        GET                         show edit page
+
+6.Update          /blogs/:id             PUT                         update info
+
+7.Destroy         /blogs/:id             DELETE                      delete 
+
+
+
+
+
+******required****
+express
+ejs
+body-parser
+mongoose
+method-override
+expressSanitizer   ----use to unbound 
+
+
+
